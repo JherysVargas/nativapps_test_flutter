@@ -11,7 +11,7 @@ final getIt = GetIt.instance;
   preferRelativeImports: true,
   asExtension: false,
 )
-void configureDependencies() => $initGetIt(getIt);
+Future<void> configureDependencies() => $initGetIt(getIt);
 
 @module
 abstract class RegisterModule {
